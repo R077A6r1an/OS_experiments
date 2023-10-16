@@ -19,7 +19,7 @@ clean:
 	rm *.bin
 	rm *.elf
 
-boot:
+boot: Test-Kernel.elf
 	qemu-system-x86_64 -kernel Test-Kernel.elf
 
 .PHONY: all

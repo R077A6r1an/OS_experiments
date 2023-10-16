@@ -6,7 +6,7 @@ _start:
   mov eax, 0xb8000
   mov byte[eax], 'H'
   mov byte[eax+1], 0x04
-  mov byte[eax+2], 'a'
+  mov byte[eax+2], 'e'
   mov byte[eax+3], 0x04
   mov byte[eax+4], 'l'
   mov byte[eax+5], 0x04
